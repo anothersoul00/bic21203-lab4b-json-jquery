@@ -43,16 +43,17 @@ This project demonstrates client-side scripting using JSON, modern JavaScript, a
 6. Ensure an internet connection is available for loading the jQuery CDN.
 
 ### Screenshots
+
 **Question 1: Create and Structure JSON Data**
-![Question 1 Code](screenshots/ question1-json-code.png)
-![Question 1 Validation]( screenshots / question1-json-validation.png)
+![Question 1 Code](question1-json-code.png)
+![Question 1 Validation](question1-json-validation.png)
 
 **Question 2: Retrieve and Display JSON Data**
-![Question 2 Output]( screenshots / question2-browser-output.png)
+![Question 2 Output](question2-browser-output.png)
 
 **Question 3: Compare Native JavaScript and jQuery**
-![Question 3 Output]( screenshots / question3-browser-output.png)
-![Question 3 Button Alert]( screenshots / question3-button-alert.png)
+![Question 3 Output](question3-browser-output.png)
+![Question 3 Button Alert](question3-button-alert.png)
 
 
 ### Learning Outcome
