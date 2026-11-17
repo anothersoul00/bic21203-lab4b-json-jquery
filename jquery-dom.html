@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript and jQuery Comparison</title>
+
+    <style>
+        .myStyle 
+        {
+            background-color: coral; padding: 16px;
+        }
+    </style>
+
+    <!-- jQuery 4.0.0 full build -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+
+</head>
+<body>
+
+    <h1>JavaScript and jQuery Comparison</h1>
+
+    <h2>Operation A: Modify Text</h2>
+    <div id="myElement">Original Text</div>
+
+    <h2>Operation B: Add CSS Class</h2>
+    <div id="myDIV">
+        <p>I am a myDIV.</p>
+    </div>
+
+    <h2>Operation C: Click Event</h2>
+    <button id="myButton">Click me</button>
+
+    <script>
+        $(document).ready(function() 
+        {
+
+            // (a) replace text using .text()
+            $("#myElement").text("Modified Text");
+
+            // (b) add CSS class using .addClass()
+            $("#myDIV").addClass("myStyle");
+
+            // (c) handle button click using .on()
+            $("#myButton").on("click", function() 
+            {
+                alert("Button clicked!");
+            });
+
+        });
+    </script>
+
+</body>
+</html>
+
+
